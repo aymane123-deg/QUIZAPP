@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".quiz1"
+    android:background="@drawable/b2">
+
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:src="@drawable/quiz5"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="240dp">
+
+    </ImageView>
+
+    <TextView
+
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question 5/5"
+        >
+
+    </TextView>
+
+
+    <RadioGroup
+
+        android:id="@+id/rg"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:textSize="40dp"
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+
+        <RadioButton
+
+            android:id="@+id/rb2"
+            android:textSize="40dp"
+            android:text="B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/next"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="finish"
+        android:layout_marginBottom="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
